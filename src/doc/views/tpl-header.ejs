@@ -2,12 +2,10 @@
     <div class="header-form">
         <a class="header-form-logo" href="javascript:;"> <i class="icon-cui"></i></a>
         <a class="header-form-btn" href="javascript:;" id="menuButton"><i class="icon-bars"></i></a>
-        <div data-textbox>
-            <div data-textbox="" class="input large right">
-                <label for="headerInput">Search for ...</label>
-                <input id="headerInput" type="text">
-                <a href="javascript:;" class="btn"><i class="icon-search"></i></a>
-            </div>
+        <div data-textbox="" class="input large right">
+            <label for="headerInput">Search for ...</label>
+            <input id="headerInput" type="text">
+            <a href="javascript:;" class="btn"><i class="icon-search"></i></a>
         </div>
     </div>
     <div class="header-menu-list right">
@@ -21,11 +19,12 @@
                     <li><a href="javascript:;"><%= __('Recommendation') %></a></li>
                     <li><a href="javascript:;"><%= __('Portals') %></a></li>
                     <li><a href="javascript:;"><%= __('Commerce') %></a></li>
-                    <li class="splict"><a href="javascript:;"><%= __('Blog') %></a></li>
-                    <li><a href="javascript:;"><%= __('Link1') %></a></li>
-                    <li><a href="javascript:;"><%= __('Link2') %></a></li>
-                    <li><a href="javascript:;"><%= __('Link3') %></a></li>
-                    <li><a href="javascript:;"><%= __('Link4') %></a></li>
+                    <li class="splict">
+                        <a class="hightlight" href="<%=url + 'v-1.html'%>"><%= __('Note') %></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><%= __('Blog') %></a>
+                    </li>
                 </ul>
             </div>
             <div class="header-menu-item">
